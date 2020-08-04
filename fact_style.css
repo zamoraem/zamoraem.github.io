@@ -1,0 +1,107 @@
+html {
+  background-color: lavenderblush;
+}
+body {
+  margin: 0%;
+}
+
+h2 {
+  font-family: monospace; font-size: 31px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 12.1px;
+  text-align: left;
+  padding-left: 2%;
+}
+h3 {
+  color: purple;
+  font-family: monospace; font-size: 16px; font-style: normal;
+  font-weight: bold;
+}
+h4 {
+  font-family: monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 12.1px;
+  text-align: left;
+  padding-left: 2%;
+}
+
+header {
+  background: #d8bfd8;
+  padding-top: 2%;
+  border-bottom: 4px solid snow;
+}
+ul {
+  list-style: none;
+}
+
+li::before {
+  content: "•"; 
+  color: purple;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.navigation {
+  text-align: left;
+}
+.border {
+  border: 2px solid silver;
+  border-style: ridge;
+  padding: 6px;
+  background-color: snow;
+  background-image: linear-gradient(lavender, thistle);
+  border-radius: 5px;
+  font-family: monospace; font-size: 16px; font-style: normal;
+  text-decoration: none;
+}
+
+header {
+  background: #d8bfd8;
+  padding-top: 2%;
+  border-bottom: 4px solid snow;
+}
+.facts-links {
+  display: flex;
+}
+.facts {
+  flex: 65%;
+  float: left;
+  border: solid 2px thistle;
+  display:flex;
+  padding-right: 10px;
+  margin-left: 3%;
+  margin-bottom: 5%;
+  box-shadow: 5px 10px thistle;
+  word-spacing: 0.5em;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.links {
+  flex: 35%;
+  float: left;
+  padding-left: 10%;
+}
+.photo-album {
+  width: 100%;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+.fun-row {
+  display: flex;
+}
+.fun-column {
+  flex: 40%;
+  padding: 5px;
+  margin: 3px;
+}
+.scroll-box {
+  flex: 60%;
+  border: 1px solid #4e4e4e;
+  font: 16px Arial, Serif;
+  overflow: scroll;
+}
+.caption {
+  font-weight: bold;
+  
+}

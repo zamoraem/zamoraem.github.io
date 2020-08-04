@@ -1,0 +1,112 @@
+html {
+  background-color: lavenderblush;
+}
+body {
+  margin: 0%;
+}
+
+h2 {
+  font-family: monospace; font-size: 31px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 12.1px;
+  text-align: left;
+  padding-left: 2%;
+}
+h4 {
+  font-family: monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 12.1px;
+  text-align: left;
+  padding-left: 2%;
+}
+
+header {
+  background: #d8bfd8;
+  padding-top: 2%;
+  border-bottom: 4px solid snow;
+}
+
+ul {
+  list-style: none;
+}
+
+li::before {
+  content: "•"; 
+  color: purple;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.navigation {
+  text-align: left;
+}
+.border {
+  border: 2px solid silver;
+  border-style: ridge;
+  padding: 6px;
+  background-color: snow;
+  background-image: linear-gradient(lavender, thistle);
+  border-radius: 5px;
+  font-family: monospace; font-size: 16px; font-style: normal;
+  text-decoration: none;
+}
+
+.align-me {
+  width:350px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+}
+p {
+  width: 600px;
+  margin: 0 auto;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-variant-ligatures: normal;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.center-top-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nene-div {
+  width: 100%;
+  display: flex;
+}
+
+.nene-kiss {
+  width: 80%;
+  border: 3px solid purple;
+  padding: 5px;
+  float: left;
+  margin-left: 10px;
+}
+
+
+.fun-facts {
+  margin: 10px;
+  margin-right: 5%;
+  text-align: left;
+  float: left;
+  background-color: lavender;
+  border-left: 5px solid thistle;
+  border-right: 5px solid thistle;
+  border-top: 2px solid thistle;
+  border-bottom: 2px solid thistle;
+  background-image: linear-gradient(thistle, lavender);
+  display: flex;
+  overflow: auto;
+}
+
+.nene-news {
+  text-align: center;
+  font-family: monospace; font-size: 16px; font-style: normal;
+  border: dotted 1px black;
+  padding-top: 6px;
+}
+.p-1 {
+  font-family: monospace; font-size: 16px; font-style: normal;
+}
+
